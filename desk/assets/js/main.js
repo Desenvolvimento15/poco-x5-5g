@@ -42,3 +42,12 @@ var blocks = document.getElementsByClassName("section");
 
 window.addEventListener('scroll', function(){checkScrollBlocks(blocks,0.5)}, false);
 window.addEventListener('resize', function(){checkScrollBlocks(blocks,0.5)}, false);
+
+
+$('.galeria').slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    adaptiveHeight: true
+  });
