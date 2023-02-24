@@ -1,3 +1,15 @@
+$('.xm-scroll').slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    adaptiveHeight: true,
+  });
+
+
+
+
 function checkScroll(element, fraction) {
     var rect = element.getBoundingClientRect();
     var y = rect.top,window_height = window.innerHeight;
@@ -44,10 +56,3 @@ window.addEventListener('scroll', function(){checkScrollBlocks(blocks,0.5)}, fal
 window.addEventListener('resize', function(){checkScrollBlocks(blocks,0.5)}, false);
 
 
-$('.galeria').slick({
-    dots: true,
-    infinite: true,
-    speed: 300,
-    slidesToShow: 1,
-    adaptiveHeight: true
-  });
