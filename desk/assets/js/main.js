@@ -8,8 +8,6 @@ $('.slick-track').slick({
 });
 
 
-
-
 function checkScroll(element, fraction) {
     var rect = element.getBoundingClientRect();
     var y = rect.top,window_height = window.innerHeight;
