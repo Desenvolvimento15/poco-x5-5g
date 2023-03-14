@@ -1,5 +1,8 @@
 
-
+*{
+  margin: 0;
+  padding: 0;
+}
 .div1.fly-birds-page_bb4357f6ca {
   align-items: flex-start;
   box-sizing: border-box;
