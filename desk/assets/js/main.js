@@ -1,10 +1,11 @@
-$('.slick-track').slick({
-    dots: true,
+$('.galeria').slick({
+    arrows: false,
+    dots: false,
     infinite: true,
-    speed: 300,
+    autoplay: true,
+    autoplaySpeed: 2000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    adaptiveHeight: true,
 });
 
 
