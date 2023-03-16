@@ -1577,7 +1577,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 0.207031rem;
+  margin-bottom: 0.307031rem;
   margin-left: -0.007813rem;
   min-height: 0.128906rem;
   width: 0.425781rem;
@@ -2679,7 +2679,7 @@
   flex-direction: column;
   justify-content: flex-start;
   margin-left: 1.429688rem;
-  margin-top: -5.914063rem;
+  margin-top: -6.5rem;
   min-height: 0.617188rem;
   width: 2.511719rem;
   z-index: 2;
